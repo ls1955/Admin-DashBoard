@@ -8,8 +8,88 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="header">Header</div>
-    <div class="sidebar">Sidebar</div>
-    <div class="main-content-container">Main Content</div>
+    <div class="header">
+        <div class="header-upper">
+            <label for="search-bar">Icon</label>
+            <input type="text" id="search-bar">
+            <span>bell</span>
+            <span>profile picture</span>
+            <span>profile name</span>
+        </div>
+
+        <div class="header-lower">
+            <div class="profile-wrapper">
+                <span>profile picture</span>
+                <p>Hi there, profile name (@name)</p>
+            </div>
+
+            <div class="button-wrapper">
+                <button>New</button>
+                <button>Upload</button>
+                <button>Share</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="sidebar">
+        <div class="logo-container">
+            <h1>Dashboard</h1>
+        </div>
+
+        <div class="upper-button-wrapper">
+            <div class="button-row">Home</div>
+            <div class="button-row">Profile</div>
+            <div class="button-row">Messages</div>
+            <div class="button-row">History</div>
+            <div class="button-row">Tasks</div>
+            <div class="button-row">Communities</div>
+        </div>
+
+        <div class="lower-button-wrapper">
+            <div class="button-row">Settings</div>
+            <div class="button-row">Support</div>
+            <div class="button-row">Privacy</div>
+        </div>
+    </div>
+
+    <div class="main-content-container">
+        <div class="your-projects-wrapper">
+            <h2>Your projects</h2>
+            <div class="card">
+                <h1>Project Title</h1>
+                <p>Project description</p>
+
+                <div class="button-wrapper">
+                    <button>Button 1</button>
+                    <button>Button 2</button>
+                    <button>Button 3</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="announcements-container">
+            <h2>Announcements</h2>
+            <div class="announcement">
+                <h1>Title</h1>
+                <p>Description</p>
+            </div>
+            <div class="announcement">
+                <h1>Title</h1>
+                <p>Description</p>
+            </div>
+            <div class="announcement">
+                <h1>Title</h1>
+                <p>Description</p>
+            </div>
+        </div>
+
+        <div class="trending-container">
+            <h2>Trending</h2>
+            <div class="trend-row">
+                <p>Profile name</p>
+                <p>Project</p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

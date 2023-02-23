@@ -1,5 +1,45 @@
-.header,
-.sidebar,
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: grid;
+    grid-template-columns: minmax(auto, 1fr) minmax(auto, 4fr);
+}
+
+.header {
+    padding: 15px 20px;
+}
+
+.header-upper {
+    display: flex;
+}
+
+.header-upper input {
+    flex: 1;
+    max-width: 700px;
+}
+
+.header-lower {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar {
+    font-size: 1.5rem;
+    font-weight: bold;
+    grid-row: 1 / span 2;
+    padding: 25px;
+
+    display: grid;
+    row-gap: 50px;
+}
+
+.logo-container {
+    font-size: 1.5rem;
+}
+
 .main-content-container {
-    border: 2px solid;
+    grid-column: 2 / -1;
 }
