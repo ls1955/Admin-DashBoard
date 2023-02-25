@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="light">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,18 +10,19 @@
 <body>
     <div class="header">
         <div class="input-container">
-            <label for="search-bar">S</label>
-            <input type="text" id="search-bar">
+            <label for="search-bar"><img src="media/magnify.svg" alt="Search icon" width="40"></label>
+            <input type="text" id="search-bar" placeholder="Search">
         </div>
 
         <div class="top-right">
-            <p>bell</p>
-            <p>pic</p>
-            <p>Morgan Oakley</p>
+            <img src="media/bell-ring.svg" alt="Notification icon" width="30">
+            <img src="images/profile.png" class="profile-pic" alt="User profile" width="50">
+            <h2>LS1955</h2>
         </div>
 
         <div class="bottom-left">
-            <p>Hi there, <br> Morgan Oakley (@morgan)</p>
+            <img src="images/profile.png" class="profile-pic" alt="User profile" width="80">
+            <p>Hi there, <br><span class="username">LS1955 (@ls1955)</span></p>
         </div>
 
         <div class="btn-container">
@@ -33,22 +34,23 @@
 
     <div class="nav">
         <div class="logo-container">
-            <h1>Dashboard</h1>
+            <img src="media/view-dashboard.svg" width="60" alt="Dashboard icon">
+            <h2>Dashboard</h2>
         </div>
 
-        <div class="upper-button-wrapper">
-            <div class="button-row">Home</div>
-            <div class="button-row">Profile</div>
-            <div class="button-row">Messages</div>
-            <div class="button-row">History</div>
-            <div class="button-row">Tasks</div>
-            <div class="button-row">Communities</div>
+        <div class="upper-btn-wrapper">
+            <div class="btn-row"><span class="icon-wrapper"><img src="media/home.svg" alt="Home icon" width="40"></span>Home</div>
+            <div class="btn-row"><span class="icon-wrapper"><img src="media/account-box.svg" alt="Profile icon" width="40"></span>Profile</div>
+            <div class="btn-row"><span class="icon-wrapper"><img src="media/message-text.svg" alt="Message icon" width="40"></span>Messages</div>
+            <div class="btn-row"><span class="icon-wrapper"><img src="media/history.svg" alt="History icon" width="40"></span>History</div>
+            <div class="btn-row"><span class="icon-wrapper"><img src="media/file-document.svg" alt="Task icon" width="40"></span>Tasks</div>
+            <div class="btn-row"><span class="icon-wrapper"><img src="media/account-group.svg" alt="Community icon" width="40"></span>Communities</div>
         </div>
 
-        <div class="lower-button-wrapper">
-            <div class="button-row">Settings</div>
-            <div class="button-row">Support</div>
-            <div class="button-row">Privacy</div>
+        <div class="lower-btn-wrapper">
+            <div class="btn-row"><span class="icon-wrapper"><img src="media/cog.svg" alt="Setting icon" width="40"></span>Settings</div>
+            <div class="btn-row"><span class="icon-wrapper"><img src="media/tooltip-question.svg" alt="Support icon" width="40"></span>Support</div>
+            <div class="btn-row"><span class="icon-wrapper"><img src="media/shield-check.svg" alt="Privacy icon" width="40"></span>Privacy</div>
         </div>
     </div>
 
@@ -59,69 +61,110 @@
             <div class="card">
                 <h3>Sign-Up-Form</h3>
                 <p>Part of the The Odin Project Curriculum. A webpage that involve form controls.</p>
+                <div class="btn-container">
+                    <img src="media/star-plus-outline.svg" alt="Add to favourite icon" width="30">
+                    <img src="media/eye-plus-outline.svg" alt="Add to watchlist icon" width="30">
+                    <img src="media/source-fork.svg" alt="Fork icon" width="30">
+                </div>
             </div>
 
             <div class="card">
                 <h3>Ruby-Chess</h3>
-                <p>Part of the The Odin Project Curriculum. A terminal chess application written in Ruby.</p>
+                <p>Part of the The Odin Project Curriculum. A terminal chess application written in Ruby.</p>    
+                <div class="btn-container">
+                    <img src="media/star-plus-outline.svg" alt="Add to favourite icon" width="30">
+                    <img src="media/eye-plus-outline.svg" alt="Add to watchlist icon" width="30">
+                    <img src="media/source-fork.svg" alt="Fork icon" width="30">
+                </div>
             </div>
 
             <div class="card">
                 <h3>Custom Enumerable</h3>
-                <p>Part of the The Odin Project Curriculum. Implementation of enumerable module in Ruby.</p>
+                <p>Part of the The Odin Project Curriculum. Self reimplementation of enumerable module in Ruby.</p>
+                <div class="btn-container">
+                    <img src="media/star-plus-outline.svg" alt="Add to favourite icon" width="30">
+                    <img src="media/eye-plus-outline.svg" alt="Add to watchlist icon" width="30">
+                    <img src="media/source-fork.svg" alt="Fork icon" width="30">
+                </div>    
             </div>
 
             <div class="card">
-                <h3>Ruby-Chess</h3>
-                <p>Part of the The Odin Project Curriculum. A terminal chess application written in Ruby.</p>
+                <h3>Exercise</h3>
+                <p>Some coding exercise.</p>
+                <div class="btn-container">
+                    <img src="media/star-plus-outline.svg" alt="Add to favourite icon" width="30">
+                    <img src="media/eye-plus-outline.svg" alt="Add to watchlist icon" width="30">
+                    <img src="media/source-fork.svg" alt="Fork icon" width="30">
+                </div>    
             </div>
 
             <div class="card">
-                <h3>Ruby-Chess</h3>
-                <p>Part of the The Odin Project Curriculum. A terminal chess application written in Ruby.</p>
+                <h3>Landing-Page</h3>
+                <p>Part of the The Odin Project Curriculum. A project in Foundation course.</p>
+                <div class="btn-container">
+                    <img src="media/star-plus-outline.svg" alt="Add to favourite icon" width="30">
+                    <img src="media/eye-plus-outline.svg" alt="Add to watchlist icon" width="30">
+                    <img src="media/source-fork.svg" alt="Fork icon" width="30">
+                </div>    
             </div>
 
             <div class="card">
-                <h3>Ruby-Chess</h3>
-                <p>Part of the The Odin Project Curriculum. A terminal chess application written in Ruby.</p>
+                <h3>Bubble-Sort</h3>
+                <p>Part of the The Odin Project Curriculum. Bubble sort algorithm written in Ruby.</p>
+                <div class="btn-container">
+                    <img src="media/star-plus-outline.svg" alt="Add to favourite icon" width="30">
+                    <img src="media/eye-plus-outline.svg" alt="Add to watchlist icon" width="30">
+                    <img src="media/source-fork.svg" alt="Fork icon" width="30">
+                </div>
             </div>
         </div>
     </div>
 
     <div class="side-container">
         <h2>Announcements</h2>
-        <div class="announces-container">
+        <div class="announce-container">
             <div class="row">
                 <h4>Site Maintenance</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum id venenatis.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
 
             <div class="row">
                 <h4>Community Share Day</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum id venenatis.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
 
             <div class="row">
                 <h4>Updated Privacy Policy</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum id venenatis.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
         </div>
 
         <h2>Trending</h2>
         <div class="trends-container">
             <div class="row">
-                <h4>@tegan</h4>
-                <p>World Peace Builder</p>
+                <img src="images/profile.png" class="profile-pic" alt="User profile" width="60">
+                <div class="user-wrapper">
+                    <p class="username">@tegan</p>
+                    <p>World Peace Builder</p>
+                </div>
             </div>
 
             <div class="row">
-                <h4>@tegan</h4>
-                <p>World Peace Builder</p>
+                <!-- img src: "https://www.flaticon.com/free-icons/user" by Freepik - Flaticon -->
+                <img src="images/man.png" class="profile-pic" alt="User profile" width="60">
+                <div class="user-wrapper">
+                    <p class="username">@kendall</p>
+                    <p>Super Cool Project</p>
+                </div>
             </div>
 
             <div class="row">
-                <h4>@tegan</h4>
-                <p>World Peace Builder</p>
+                <!-- img src: "https://www.flaticon.com/free-icons/chef" by Nikita Golubev - Flaticon</a> -->
+                <img src="images/chef.png" class="profile-pic" alt="User profile" width="60">
+                <div class="user-wrapper">
+                    <p class="username">@alex</p>
+                    <p>Life Changing App</p>
+                </div>
             </div>
         </div>
     </div>
